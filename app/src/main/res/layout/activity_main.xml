@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/teach_object_text"
+        android:layout_width="236dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toggle_teaching_session"
+        app:layout_constraintTop_toBottomOf="@+id/toggle_teaching_session"
+        app:layout_constraintVertical_bias="0.04000002" />
+
+    <EditText
+        android:id="@+id/find_object_text"
+        android:layout_width="236dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toggle_finding_object"
+        app:layout_constraintTop_toTopOf="@+id/teach_object_text"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/robot_display"
+        android:layout_width="680dp"
+        android:layout_height="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="437dp"
+        android:layout_height="182dp"
+        android:text="Info:"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/robot_display"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toEndOf="@+id/robot_display"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/save_object"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:onClick="saveTeachingObject"
+        android:text="Save Object"
+        app:layout_constraintBottom_toBottomOf="@+id/teach_object_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toEndOf="@+id/teach_object_text"
+        app:layout_constraintTop_toTopOf="@+id/teach_object_text"
+        app:rippleColor="#CA0F0F" />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:onClick="findObject"
+        android:text="Find Object"
+        app:layout_constraintBottom_toBottomOf="@+id/find_object_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toEndOf="@+id/find_object_text"
+        app:layout_constraintTop_toTopOf="@+id/find_object_text" />
+
+<!--    <Button-->
+<!--        android:id="@+id/ok_button"-->
+<!--        android:layout_width="114dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:onClick="ok_button"-->
+<!--        android:text="OK"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/find"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/toggle_finding_object"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/cancel_button"-->
+<!--        android:layout_width="114dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:onClick="cancel_button"-->
+<!--        android:text="Cancel"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.502"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/find"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ok_button"-->
+<!--        app:layout_constraintVertical_bias="0.35000002" />-->
+
+    <ToggleButton
+        android:id="@+id/toggle_teaching_session"
+        android:layout_width="203dp"
+        android:layout_height="75dp"
+        android:onClick="toggleTeachingMode"
+        android:text="aaaaaaaa"
+        android:textOff="Toggle Teaching Session: Off"
+        android:textOn="Toggle Teaching Session: On"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/robot_display"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <ToggleButton
+        android:id="@+id/toggle_finding_object"
+        android:layout_width="203dp"
+        android:layout_height="75dp"
+        android:onClick="toggleFindingMode"
+        android:text="aaaaaaaa"
+        android:textOff="Toggle Finding Object Mode: Off"
+        android:textOn="Toggle Finding Object Mode: On"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/save_object"
+        app:layout_constraintTop_toTopOf="@+id/toggle_teaching_session"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
