@@ -13,9 +13,6 @@ import math
 from multiprocessing import Pool
 from sklearn.model_selection import train_test_split
 from Functions import get_centroids
-#from Functions_new import get_accuracy
-#from Functions_new import get_test_accuracy
-#from Functions_new import get_validation_accuracy
 from sklearn.model_selection import KFold
 import random
 # THE FOLLOWING IS DEFINITELY NEEDED WHEN WORKING WITH PYTORCH
