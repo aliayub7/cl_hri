@@ -12,7 +12,7 @@ Complete code for implementing our socially guided continual learning system (SG
 * Create ```learned_objects```, ```learned_models```, ```test_objects``` and ```cur_img_dir``` folders.
 * Run ```lifelong_model_server.py``` from ```lifelong_learning``` folder.
 * Connect tablet with the server. Run ```MainActivity.java``` from ```/home/sirrlab1/cl_hri/app/src/main/java/com/example/fetchgui_learning_testing``` in android studio to load the GUI on the tablet.
-* Run fsilGUI.py to connect the GUI with the server and the robot.
+* Run ```fsilGUI.py``` to connect the GUI with the server and the robot.
 * Use the GUI to continually teach and test the robot. 
 ## If you consider citing us
 ```
