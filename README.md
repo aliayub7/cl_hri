@@ -2,17 +2,18 @@
 Complete code for implementing our socially guided continual learning system (SGCL): Integration of continual learning models with an android tablet and a mobile manipulator robt using ROS. 
 
 ### Requirements
-* torch (Currently working with 1.3.1)
-* Scipy (Currently working with 1.2.1)
-* Scikit Learn (Currently working with 0.21.2)
-* Use requirements.txt to install all the required libraries
-* Download the datasets in */data directory
+* ROS with a real Fetch robot or a simulator
+* Android tablet
+* android studio
+* torch 
+* Scipy 
+* Scikit Learn
 ## Usage
-* Create ```checkpoint```, ```data``` and ```previous_classes``` folders.
-* Run ```multiple_auto_decay.py``` to run EEC with multiple autoencoders without using pseudorehearsal.
-* Run ```multiple_pseudo.py``` to run EEC with multiple autoencoders with pseudorehearsal.
-* The code currently has parameters set for ImageNet-50. Just change the appropriate parameters to run it on other datasets.
-* Label smoothing was used from this repo: [Link](https://github.com/weiaicunzai/Bag_of_Tricks_for_Image_Classification_with_Convolutional_Neural_Networks)
+* Create ```learned_objects```, ```learned_models```, ```test_objects``` and ```cur_img_dir``` folders.
+* Run ```lifelong_model_server.py``` from ```lifelong_learning``` folder.
+* Connect tablet with the server. Run ```MainActivity.java``` from ```/home/sirrlab1/cl_hri/app/src/main/java/com/example/fetchgui_learning_testing``` in android studio to load the GUI on the tablet.
+* Run fsilGUI.py to connect the GUI with the server and the robot.
+* Use the GUI to continually teach and test the robot. 
 ## If you consider citing us
 ```
 @inproceedings{
