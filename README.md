@@ -23,6 +23,13 @@ author={Ali Ayub, Zachary De Francesco, Patrick Holthaus, Chrystopher L. Nehaniv
 booktitle={IEEE/CVF CVPR 2023 (4th Workshop on Continual Learning in Computer Vision)},
 year={2023}
 }
+@inproceedings{
+ayub2023clhri,
+title={How Do Human Users Teach a Continual Learning Robot?},
+author={Ali Ayub, Jainish Mehta, Zachary De Francesco, Patrick Holthaus, Kerstin Dautenhahn, Chrystopher L. Nehaniv},
+booktitle={IEEE International Conference on Robot and Human Interactive Communication (ROMAN)},
+year={2023}
+}
 @misc{ayub2023continual,
       title={Continual Learning through Human-Robot Interaction -- Human Perceptions of a Continual Learning Robot in Repeated Interactions}, 
       author={Ali Ayub and Zachary De Francesco and Patrick Holthaus and Chrystopher L. Nehaniv and Kerstin Dautenhahn},
