@@ -24,8 +24,8 @@ booktitle={IEEE/CVF CVPR 2023 (4th Workshop on Continual Learning in Computer Vi
 year={2023}
 }
 @inproceedings{
-ayub2023clhri,
-title={How Do Human Users Teach a Continual Learning Robot?},
+ayub2023roman_continual,
+title={How Do Human Users Teach a Continual Learning Robot in Repeated Interactions?},
 author={Ali Ayub, Jainish Mehta, Zachary De Francesco, Patrick Holthaus, Kerstin Dautenhahn, Chrystopher L. Nehaniv},
 booktitle={IEEE International Conference on Robot and Human Interactive Communication (ROMAN)},
 year={2023}
