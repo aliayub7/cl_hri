@@ -19,14 +19,14 @@ Complete code for implementing our socially guided continual learning system (SG
 @inproceedings{
 ayub2023clhri,
 title={Human Perceptions of Task Load and Trust when Interactively Teaching a Continual Learning Robot},
-author={Ali Ayub, Zachary De Francesco, Patrick Holthaus, Chrystopher L. Nehaniv, Kerstin Dautenhahn},
+author={Ali Ayub and Zachary De Francesco and Patrick Holthaus and Chrystopher L. Nehaniv and Kerstin Dautenhahn},
 booktitle={IEEE/CVF CVPR 2023 (4th Workshop on Continual Learning in Computer Vision)},
 year={2023}
 }
 @inproceedings{
 ayub2023roman_continual,
 title={How Do Human Users Teach a Continual Learning Robot in Repeated Interactions?},
-author={Ali Ayub, Jainish Mehta, Zachary De Francesco, Patrick Holthaus, Kerstin Dautenhahn, Chrystopher L. Nehaniv},
+author={Ali Ayub and Jainish Mehta and Zachary De Francesco and Patrick Holthaus and Kerstin Dautenhahn and Chrystopher L. Nehaniv},
 booktitle={IEEE International Conference on Robot and Human Interactive Communication (ROMAN)},
 year={2023}
 }
